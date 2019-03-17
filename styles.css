@@ -1,0 +1,25 @@
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+}
+body{
+    background-color: aqua;
+}
+#wrapper{
+    
+    max-width: 500px;
+    margin-top: 100px;
+    /* border: 2px solid gainsboro; */
+    text-align: center;
+    
+   
+}
+#wrapper > select{
+    padding: 1em;
+    margin: 1em;
+    background-color: antiquewhite;
+}
+h1{
+    font-size: 2em;
+  
+}
