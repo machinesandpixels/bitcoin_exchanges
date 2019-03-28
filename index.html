@@ -8,25 +8,28 @@
     <title>Bitcoins to Dollars, Pounds & Euros</title>
 </head>
 <body>
-    
+       
     <div id="wrapper">
+   
+        <form action="/" method="post">
 
-            <h1> Bitcoins to Dollars, Pounds & Euros</h1>
-        
-        <span>Bitcoins</span>
-        
-        <form action="/" method="POST">
+            <select name="crypto">
+                <option value="bit"> Bitcoins </option>
+            
+            </select>
 
         <select name="fiat">
             <option value="us"> Us Dollars </option>
             <option value="pounds"> Pounds </option>
             <option value="euros"> Euros </option>
         </select>
-
-        </form>
+        
+        <button type="submit" name="button"> Convert </button>
+        
+    </form>
        
 
-        <button> Convert </button>
+       
 
     </div>
 <script src="index.js"></script>
